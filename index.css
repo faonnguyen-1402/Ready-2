@@ -24,6 +24,158 @@
     align-items: center;
 }
 
+.size-for-image {
+    display: flex;
+    width: 28px;
+    height: 28px;
+    margin-right: 27px;
+}
+
+.position-for-hover-image {
+    position: relative;
+}
+
+.img_1_card {
+    position: absolute;
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+    width: 180px;
+    border-radius: 25px;
+    height: 185px;
+    right: -77px;
+    top: 35px;
+    opacity: 0.9;
+    display: none;
+}
+
+.img_2_card {
+    position: absolute;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    width: 180px;
+    border-radius: 25px;
+    height: 185px;
+    right: -77px;
+    top: 35px;
+    opacity: 0.9;
+    display: none;
+}
+
+.img_3_card {
+    position: absolute;
+    background-image: linear-gradient(to right, #fffbd5, #b20a2c);
+    width: 180px;
+    border-radius: 25px;
+    height: 185px;
+    right: -77px;
+    top: 35px;
+    opacity: 0.9;
+    display: none;
+}
+
+.img_4_card {
+    position: absolute;
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+    width: 180px;
+    border-radius: 25px;
+    height: 185px;
+    right: -77px;
+    top: 35px;
+    opacity: 0.9;
+    display: none;
+}
+
+.img_5_card {
+    position: absolute;
+    background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%, rgba(4, 189, 228, 1) 0%, rgba(2, 83, 185, 1) 100.2%);
+    width: 180px;
+    border-radius: 25px;
+    height: 185px;
+    right: -77px;
+    top: 35px;
+    opacity: 0.9;
+    display: none;
+}
+
+.img_6_card {
+    position: absolute;
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+    width: 180px;
+    border-radius: 25px;
+    height: 185px;
+    right: 52px;
+    top: 55px;
+    opacity: 0.9;
+    display: none;
+}
+
+.img_1:hover+.img_1_card {
+    display: block;
+}
+
+.img_2:hover+.img_2_card {
+    display: block;
+}
+
+.img_3:hover+.img_3_card {
+    display: block;
+}
+
+.img_4:hover+.img_4_card {
+    display: block;
+}
+
+.img_5:hover+.img_5_card {
+    display: block;
+}
+
+.number-one:hover+.img_6_card {
+    display: block;
+}
+
+.size-for-image-hover {
+    width: 80px;
+    height: 80px;
+    padding: 20px 50px;
+    position: absolute;
+}
+
+.name-for-hover_1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+.name-for-hover_you {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.text-for-hover_1 {
+    display: flex;
+    color: rgba(255, 255, 255, .5);
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.hand {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    height: 78px;
+    align-items: center;
+}
+
+.background-for-hand {
+    background-color: white;
+    margin: 25px 0px 0px 51px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
 .border-for-text {
     display: flex;
     border: 1px solid rgb(255, 255, 255);
@@ -35,14 +187,13 @@
     background-color: #ece6e6;
 }
 
-.size-for-image {
-    display: flex;
-    width: 28px;
+.img_1,
+.img_2,
+.img_3,
+.img_4,
+.img_5 {
+    width: 31px;
     height: 28px;
-    margin-right: 27px;
-}
-
-.img {
     margin-right: -4px;
 }
 
@@ -468,6 +619,8 @@
     margin-top: 150px;
     height: 150px;
     display: flex;
+    display: flex;
+    justify-content: space-between;
 }
 
 .ready-made-remotely {
@@ -496,12 +649,10 @@
 }
 
 .footer-left {
-    width: 600px;
     height: 48px;
 }
 
 .footer-right {
-    width: 615px;
     display: flex;
     justify-content: end;
 }
