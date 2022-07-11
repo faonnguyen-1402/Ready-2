@@ -246,7 +246,7 @@
     padding-top: 20px;
     /* padding-bottom: 0px; */
     font-size: 40px;
-    width: 410px;
+    width: 29%;
     color: #ffffff;
     text-align: center;
     font-weight: bold;
@@ -710,6 +710,15 @@
     }
     .content-pencil {
         position: relative;
+    }
+    .the-calendar {
+        padding-top: 20px;
+        /* padding-bottom: 0px; */
+        font-size: 40px;
+        width: 95%;
+        color: #ffffff;
+        text-align: center;
+        font-weight: bold;
     }
     .background-for-body {
         /* background-image: url("https://assets-global.website-files.com/5f04dd60cf344a1e1952a8e5/5f323320dfac6775836b684d_Hero-p-1080.jpeg"); */
