@@ -869,7 +869,7 @@
         .your-calendar {
             display: flex;
             margin-top: 60px;
-            max-width: 100%;
+            width: 100%;
             height: 20px;
             font-size: 22px;
             line-height: 20px;
@@ -882,6 +882,10 @@
             background-clip: text;
             -webkit-text-fill-color: transparent;
             margin-bottom: 20px;
+        }
+        .container-your-calendar {
+            width: 100%;
+            text-align: center;
         }
         .it-starts {
             max-width: 100%;
@@ -905,6 +909,7 @@
             padding: 0px;
         }
         .your-meeting {
+            margin-top: 20px;
             width: 100%;
             height: 24px;
             background-image: linear-gradient(146deg, #5c6ae4, #a14ece);
@@ -966,7 +971,16 @@
             /* height: 500px; */
             margin-top: 22px;
         }
+        .background-for-doraemon {
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            width: 100%;
+            background: linear-gradient(rgb(194, 97, 113), white);
+        }
         .size-text-for-body_2 {
+            width: 100%;
             /* background-color: #f5f4f1; */
             font-weight: 500;
             display: flex;
@@ -978,9 +992,19 @@
             position: relative;
             margin-top: 40px;
         }
+        .box-hiring {
+            text-align: center;
+            background: #fff;
+            width: 100%;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
         .doraemon {
             max-width: 55%;
-            margin-left: 80px;
+            margin-left: 0px;
         }
         .mini-doraemon {
             position: absolute;
@@ -1000,9 +1024,26 @@
             background-color: #f5f4f1;
             flex-direction: column;
         }
+        .half-background {
+            width: 100%;
+        }
+        .see-the-roles {
+            margin-bottom: 40px;
+            display: flex;
+            border: 2px solid #5a5eb9;
+            border-radius: 7px;
+            width: 140px;
+            font-size: 17px;
+            background-color: #5a5eb9;
+            color: white;
+            height: 27px;
+            /* margin-left: 100px; */
+            margin-top: 29px;
+            align-items: center;
+            justify-content: center;
+        }
         .we-are-hiring {
             width: 100%;
-            height: 250px;
             font-size: 32px;
             background: #fff;
             text-align: center;
@@ -1078,5 +1119,12 @@
         }
         .wolf {
             display: none;
+        }
+        .align-text_3 {
+            padding-left: 0px;
+            /* display: flex; */
+            text-align: left;
+            /* background: red; */
+            width: 100%;
         }
     }
